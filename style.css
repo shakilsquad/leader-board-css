@@ -93,11 +93,12 @@ hr{
     display: grid;
     grid-template-columns: repeat(3 ,1fr);
 }
-.Lates-Course{
+.Lates-Course {
     padding-top: 70px;
-    Width:252.42px;
-    Height:269.79px;
-    /* background-color: #562EFF; */
+    width: 252.42px;
+    border-radius: 6px;
+    height: 269.79px;
+    box-shadow: 4px 4px 33px #00000045;
 }
 .Lates-Course img{
     width:224px ;
