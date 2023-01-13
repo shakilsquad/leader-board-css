@@ -140,3 +140,55 @@ hr{
     height: 24px;
     border-radius: 111px;
 }
+
+/*
+ =----------------------
+                          media quarie 
+ ------------------------------------*/
+
+@media screen and (max-width:992px) {
+    .container{
+        width: 90%;
+    }
+    .top-players-title{
+        text-align: center;
+    }
+    .players{
+        grid-template-columns: repeat(2,1fr);
+        justify-items: center;
+    }
+    .section-title{
+        text-align: center;
+    }
+}
+
+
+ @media screen and (max-width:688px) {
+    .container{
+        width: 80%;
+    }
+    .players , .top-blog-one , .section{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .player , .blog{
+        flex-direction: column;
+    }
+    .blog-info{
+        margin-left: 9px;
+    }
+    /* blog */
+    /* course srction */
+    .section{
+        row-gap: 40px;
+    }
+    .Lates-Course {
+        padding-top: 27px;
+        padding-bottom: 31px;
+        padding-left: 20px;
+    }
+    .course-info {
+        display: flex;
+        gap: 15px;
+        flex-direction: column;
+    }
+ }
