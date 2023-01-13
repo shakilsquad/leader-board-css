@@ -44,4 +44,44 @@
     height:56px;
     width: 56px;
 }
+.players-name{
+    font-size: 18px;
+}
+hr{
+    border: 1px solid #D1D1D1
+}
 /* ===============Top Blog======== */
+.top-blog-one{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 26px;
+    column-gap: 46px;
+}
+.blog{
+    display: flex;
+}
+.blog .thambaile img{
+    height: 117px;
+    width: 177px;
+}
+.blog-info{
+    margin-left: 16px;
+}
+.blog-title {
+    width: 164px;
+    height: 68px;
+    top: 5px;
+    margin-top: 3px;
+    line-height: 34px;
+    font-weight: 500;
+}
+.blog-author {
+    margin-top: -11px;
+    font-size: 18px;
+    color: #9F9F9F;
+}
+.blog-author a{
+    text-decoration: none;
+}
+
+/* =========== latest course============ */
