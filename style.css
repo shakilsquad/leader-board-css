@@ -1,18 +1,21 @@
  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap'); 
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap'); 
  body{
     font-family: 'Poppins', sans-serif;
     background-color: #9F9F9F;
+    
  }
 /* font style */
 .container {
     background-color: #ffff;
-    height: 679px;
+    /* height: 679px; */
     width: 870px;
     left: 285px;
     top: 130px;
     border-radius: 5px;
     margin: 0 auto;
-    padding: 33px 33px;
+    padding: 30px 33px;
 
 }
 .top-players-title{
@@ -85,3 +88,54 @@ hr{
 }
 
 /* =========== latest course============ */
+.section{
+    margin-top:21px ;
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+}
+.Lates-Course{
+    padding-top: 70px;
+    Width:252.42px;
+    Height:269.79px;
+    /* background-color: #562EFF; */
+}
+.Lates-Course img{
+    width:224px ;
+    height: 104px ;
+    
+}
+.course-title{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.Lates-Course p{
+    margin-top: -10px;
+    color: #ED6B4F;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Robot' , sans-serif;
+}
+.course-info{
+    display: flex;
+    gap: 15px;
+}
+.course-time{
+
+}
+.fa-star.icon-color{
+    color:#FFC014;
+}
+.icon-color-gray{
+    color: #AEAEAE;
+}
+.course-time {
+    background-color: #FEE5DF;
+    color: #ED6B4F;
+    width: 94px;
+    text-align: center;
+    height: 24px;
+    border-radius: 111px;
+}
