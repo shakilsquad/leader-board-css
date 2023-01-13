@@ -94,7 +94,8 @@ hr{
     grid-template-columns: repeat(3 ,1fr);
 }
 .Lates-Course {
-    padding-top: 70px;
+    padding-top: 50px;
+    padding-left: 10px;
     width: 252.42px;
     border-radius: 6px;
     height: 269.79px;
@@ -159,6 +160,11 @@ hr{
     }
     .section-title{
         text-align: center;
+    }
+    .section {
+        margin-top: 21px;
+        display: grid;
+        grid-template-columns: repeat(2 ,1fr);
     }
 }
 
